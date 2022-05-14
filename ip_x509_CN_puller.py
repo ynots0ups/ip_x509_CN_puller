@@ -1,5 +1,5 @@
 import ssl
-from cryptography import x509
+from cryptography import x509 # pip install cryptography
 
 with open('ip_list.txt') as file:
     for ip in map(lambda line: line.rstrip('\n'), file):
